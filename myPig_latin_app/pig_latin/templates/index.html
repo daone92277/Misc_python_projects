@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Pig Latin Translator</h1>
+    <form action="{% url 'translate'%}">
+            <input type="text" name = "untranslated_text">
+            <br>
+            <input type="submit" value = "Translate">
+        </form>
+        <p style = line-height:40% ">Click below for some background Info on the Pig Latin ! Oink Oink</p>
+        <a href="{% url 'about' %}">
+            <button> Pig latin Info</button>
+        </a>
+
+</body>
+</html>

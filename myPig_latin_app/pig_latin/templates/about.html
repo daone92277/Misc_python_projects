@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load static %} 
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Pig Latin</title>
+    <link rel="stylesheet" href={% static "css/pig_app.css" %}>
+</head>
+<body>
+    <div id = "wrapper">
+    <div class = "pig_text">
+        <h2>Pig Latin:</h2>
+            <p>Pig Latin is a language game or argot in which 
+                words in English are altered, usually by adding a 
+                fabricated suffix or by moving the onset or initial consonant 
+                or consonant cluster of a word to the end of the word and adding 
+                a vocalic syllable to create such a suffix. The objective is to 
+                conceal the words from others not familiar with the rules. 
+                The reference to Latin is a deliberate misnomer; Pig Latin is simply a 
+                form of argot or jargon unrelated to Latin, and the name is used for its 
+                English connotations as a strange and foreign-sounding language.
+            </p>
+    </div>
+        <div class = "image1">
+        <img src="{% static "images/image1.jpg" %}" alt="pig1 goes here" />
+        </div>
+        <div class = "image2">
+        <img src="{% static "images/pig-latin.jpg" %}" alt="pig-latin goes here">
+        </div>
+    </div>
+</body>
+</html>
